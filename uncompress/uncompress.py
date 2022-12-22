@@ -8,8 +8,8 @@ def uncompress(s):
         if character.isnumeric():
             j += 1  # targets the numeric value index
         else:
-            number = int(s[i:j])
-            result.append(number * character)
+            found_number = int(s[i:j])
+            result.append(found_number * character)
             j += 1
             i = j
 
