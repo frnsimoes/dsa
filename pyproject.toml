@@ -6,6 +6,7 @@ authors = ["frnsimoes <simoes.grcia@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+ipdb = "^0.13.11"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
